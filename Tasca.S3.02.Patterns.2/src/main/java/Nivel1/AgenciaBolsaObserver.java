@@ -2,7 +2,7 @@ package Nivel1;
 
 public class AgenciaBolsaObserver implements Observer{
 
-    public String nombre;
+    private String nombre;
 
     public AgenciaBolsaObserver(String nombre) {
         this.nombre = nombre;
